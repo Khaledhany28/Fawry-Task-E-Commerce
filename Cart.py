@@ -29,7 +29,7 @@ class Cart:
         self.price += product.get_price() * quantity
         self.shipping_weight += product.get_shipping_weight() * quantity
 
-    def remove_item(self, product: Product, quantity: int=1):
+    def remove(self, product: Product, quantity: int=1):
 
         for i, (cart_product, cart_quantity) in enumerate(self.items):
             if cart_product == product:
