@@ -135,7 +135,7 @@ khaled.cart.add(products["Card"], 5)
 shop.checkout(khaled)
 ```
 
-![Output screenshot](screenshots\code_output.png)
+![Output screenshot](screenshots/code_output.png)
 
 ---
 
